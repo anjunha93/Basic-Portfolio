@@ -1,0 +1,320 @@
+
+* {
+  box-sizing: border-box;
+ 
+ }
+
+ html {
+ 	color: #4aaaa5;
+
+ }
+
+
+ body {
+ 	font-size:24px;
+ 	line-height: 32px;
+ 	color: #777777;
+ 	background: #eee;
+ 	border-color: #dddddd;
+ 	width: 1000px;
+
+ }
+
+ header {
+ 	border-color: #cccccc;
+
+ }
+
+ a {
+ 	color: #777777;
+ 	text-decoration: none;
+ }
+
+
+#topbox {
+	position: relative;
+	top: -10px;
+	height:75px;
+	left: -10px;
+	width: 1200px;
+	background:#FFFFFF;
+	opacity: 1.0;
+
+}
+
+#name {
+	position: relative;
+	float: left;
+	top: 0px;
+	left: 115px;
+	height: 75px;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+	line-height: 75px;
+	background: #4aaaa5;
+	color: white;
+
+}
+
+.about1 {
+	color: white;
+	float:left;
+	margin-top: 25px;
+	left: 600px;
+	text-align: left;
+	position: relative;
+}
+
+.portfolio {
+	color: white;
+	float: left;
+	margin-top: 25px;
+	left: 625px;
+	position: relative;
+
+}
+
+.contact {
+	color: white;
+	float: left;
+	margin-top: 25px;
+	left: 650px;
+	position: relative;
+}
+
+
+
+
+.about {
+	text-align: left;
+	background: #fff;
+	padding: 10px 40px 20px 20px;
+	height: 450px;
+	width: 650px;
+	margin-right: 50px;
+	top: 50px;
+	left: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	font-size: 18px;
+	position: relative;
+	float:left;
+
+
+}
+
+.profile {
+	float: left;
+	margin-top: 20px;
+	margin-right: 20px;
+}
+
+.about h2 {
+	color: #4aaaa5;
+}
+
+.portfolio1 h2 {
+	color: #4aaaa5;
+}
+
+.contact1 h2 {
+	color: #4aaaa5;
+}
+
+.connect h3 {
+	color: #4aaaa5;
+}
+
+
+.line-separator {
+	height:2px;
+	background:#fff;
+	border-bottom:1px solid #313030;
+	width: 100%;
+	opacity: 0.4;
+}
+
+.connect {
+	text-align: center;
+	background: #fff;
+	padding: 0px 10px 0px 10px;
+	height: 175px;
+	width: 270px;
+	top: 50px;
+	left: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	font-size: 18px;
+	position: relative;
+	display: inline-block;
+}
+
+.github img{
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-left: 15px;
+	margin-top: 15px;
+
+}
+
+.linked img{
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+	margin-top: 15px;
+}
+
+.stack img{
+	height: 60px;
+	width: 60px;
+	float: left;
+	margin-top: 15px;
+}
+
+.teal {
+	background: #4aaaa5;
+	height: 10px;
+	width: 1200px;
+	position: relative;
+	top: 150px;
+	float: left;
+	left: -10px;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: #777777;
+	padding: 40px 0px 50px 0px;
+	background: #666666;
+	clear: both;
+	position: relative;
+	top: 150px;
+	width: 1200px;
+	left: -10px;
+}
+
+
+/* PORTFOLIO */
+
+.portfolio1 {
+	text-align: left;
+	background: #fff;
+	padding: 10px 40px 20px 20px;
+	margin-right: 50px;
+	height: 800px;
+	width: 650px;
+	top: 50px;
+	left: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	font-size: 18px;
+	position: relative;
+	float:left;
+}
+
+.hangman {
+	float: left;
+	margin-left: 30px;
+}
+
+.hangmantitle {
+	position: absolute;
+	text-align: center;
+	top: 250px;
+	height: 50px;
+	width: 205px;
+	padding: 20px;
+	background: #4aaaa5;
+}
+
+
+.rpg {
+	float: left;
+	margin-left: 30px;
+	
+}
+
+.rpgtitle {
+	position: absolute;
+	text-align: center;
+	top: 250px;
+	height: 50px;
+	width: 205px;
+	padding: 20px;
+	background: #4aaaa5;
+}
+
+
+.trivia {
+	float: left;
+	margin-left: 30px;
+}
+
+.triviatitle {
+	position: absolute;
+	text-align: center;
+	top: 475px;
+	height: 50px;
+	width: 205px;
+	padding: 20px;
+	background: #4aaaa5;
+}
+
+
+.rutgers {
+	float: left;
+	margin-left: 30px;
+}
+
+.rutgerstitle {
+	position: absolute;
+	text-align: center;
+	top: 475px;
+	height: 50px;
+	width: 205px;
+	padding: 20px;
+	background: #4aaaa5;
+}
+
+.rock {
+	float: left;
+	margin-left: 30px;
+}
+
+.rocktitle {
+	position: absolute;
+	text-align: center;
+	top: 700px;
+	height: 50px;
+	width: 205px;
+	padding: 20px;
+	background: #4aaaa5;
+}
+
+
+/* CONTACT ME */
+
+.contact1 {
+	text-align: left;
+	background: #fff;
+	padding: 10px 40px 20px 20px;
+	margin-right: 50px;
+	height: 500px;
+	width: 650px;
+	top: 50px;
+	left: 100px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #999;
+	font-size: 18px;
+	position: relative;
+	float:left;	
+}
